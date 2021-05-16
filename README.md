@@ -17,8 +17,10 @@
 > instructions shown in the table and runs the instructions out of
 > order. Follow the RISC-V instruction encodings as in the RISC-V
 > Specification. The MUL and DIV are part of the ‘M’ extensions of
-> RISC-V. You can choose the number of stages in the pipeline as per the
-> Tomasulo algorithm (4 stages) or you can implement a 7-stage pipeline.
+> RISC-V. The number of stages in the pipeline as per the
+> Tomasulo algorithm (4 stages) pipeline. 				
+	 				
+	
 >
 > The Tomasulo structure with RoB is shown below (CDB is an important
 > component of the design). RAT also needs to be a part of the design.
